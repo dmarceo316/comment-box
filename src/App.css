@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.comment-box {
+  max-width: 37.5rem;
+  margin: auto;
+  color: #fff;
+  background-color: #00509d;
+  border-radius: 0.875rem;
+  padding: 0.2rem 1rem 2rem;
+}
+
+.comment-form {
+  background-color: none;
+  border-radius: 0.25rem;
+  margin-top: 20px;
+}
+
+.form-field{
+  margin-bottom: 1rem;
+  border: none;
+  width: 100%;
+}
+
+.mt-6{
+  margin-top: 25px;
+}
