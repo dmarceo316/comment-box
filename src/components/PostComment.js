@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Button, Card, CardBody, CardTitle, CardText } from 'reactstrap';
 import { Control, LocalForm } from 'react-redux-form';
 
-function RenderComments({comments, addComment}) {
+function RenderComments({comments, addComment, commentId}) {
     if (comments) {
         return (
             <div className="col-sm-12">
@@ -32,7 +32,7 @@ function RenderComments({comments, addComment}) {
                             );
                         })
                     }
-                <PostComment  addComment={addComment} />
+                {/* <PostComment  addComment={addComment} /> */}
             </div>
         );
     }
@@ -60,7 +60,7 @@ class PostComment extends Component {
                     </div>
                     <div className="form-group">
                         <Control.text
-                        model=".comment"
+                        model=".text"
                         className="form-control"
                         name="comment" 
                         id="text" 
@@ -80,11 +80,14 @@ function DisplayComment(props){
         <div>
             <div className="row">
             <RenderComments 
+            addComment = {props.addComment}
+            comments = {props.comments}
             />
             </div>
             <div className="col">
             <PostComment
             addComment = {props.addComment}
+            comments = {props.comments}
             />
             </div>
         </div>

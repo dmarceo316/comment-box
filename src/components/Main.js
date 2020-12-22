@@ -12,7 +12,7 @@ const mapStateToProps = state => {
 };
 
 const mapDispatchToProps = {
-    addComment: (commentId, author, text) => (addComment(commentId,author,text))
+    addComment: (commentId, author, text) => (addComment(commentId, author, text))
 }
 
 class Main extends Component{
@@ -20,9 +20,11 @@ class Main extends Component{
         return(
             <div className="comment-box">
                 <h1>Join the discussion!</h1>
+                <h1>Adam's post</h1>
                 <TopComment/>
                 <DisplayComment
                 addComment = {this.props.addComment}
+                comments = {this.props.comments}
                 />
             </div>
         )

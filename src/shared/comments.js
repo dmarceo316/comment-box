@@ -1,12 +1,12 @@
 export const COMMENTS = [
     {
         commentId: 0,
-        author: 'Adam Arceo',
+        author: 'Richard',
         text: 'I love disum!'
     },
     {
         commentId: 1,
         author: 'Jake Paul',
-        text: 'I can beat Mayweather!'
+        text: 'Fried foods are the best!'
     }
 ]
