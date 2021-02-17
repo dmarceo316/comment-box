@@ -1,12 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 .App {
   text-align: center;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.title{
+  color: #FE5F55; 
+  font-family: 'Pacifico', cursive;
+  font-size: 4em;
+}
+
+.btn-color{
+  background-color: #FE5F55;
 }
 
 .comment-box {
-  max-width: 37.5rem;
+  max-width: 50.5rem;
   margin: auto;
   color: #fff;
-  background-color: #00509d;
+  background-color: #212d40;
   border-radius: 0.875rem;
   padding: 0.2rem 1rem 2rem;
 }
@@ -26,3 +41,14 @@
 .mt-6{
   margin-top: 25px;
 }
+
+.zoom {
+  transition: transform .2s; /* Animation */
+  width: 100%;
+}
+.zoom:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  cursor: pointer;
+}
+
+
