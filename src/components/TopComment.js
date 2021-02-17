@@ -18,10 +18,9 @@ export default class TopComment extends Component{
                         className="container"
                         >
                         <CardBody className="row">
-                            <img src="./images/Adam.jpg" alt="random" height="100px" className="col-sm-6"
-                            style ={{
-                                borderRadius: "48%",
-                                marginTop: "70px"
+                            <img src="./images/Adam.jpg" alt="random" className="col-sm-6"
+                            style ={{                             
+                                borderRadius: "50%",
                             }}
                             />
                             <div className="col-sm-6">

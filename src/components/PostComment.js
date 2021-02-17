@@ -35,10 +35,9 @@ function RenderComments({comments}) {
                                             className="container"
                                             >
                                             <CardBody className="row">
-                                                <img src="./images/random.jpeg" alt="random" height="75px" className="col-sm-6"
+                                                <img src="./images/user1.jpg" alt="random" className="col-sm-6"
                                                 style ={{
-                                                    borderRadius: "47%",
-                                                    marginTop: "50px"
+                                                    borderRadius: "50%"
                                                 }}
                                                 />
                                                 <div className="col-sm-6">
